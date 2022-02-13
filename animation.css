@@ -1,0 +1,49 @@
+
+
+/* main container design */
+
+.container{
+    height: 50vh;
+    width: 100%;
+    background-color: orangered;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+.circle{
+    /* this is for sqaures */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 4vh);
+    grid-template-rows: repeat(auto-fit, 4vh);
+    overflow: hidden;
+
+
+    /* circle design and alignment */
+    height: 40vh;
+    width: 80vh;
+    background-color: white;
+    margin: 0px auto;
+    margin-top: 10vh;
+    border-radius: 40vh 40vh 0px 0px;
+}
+
+
+.squares{
+    border: 1px solid black;
+    overflow: hidden;
+}
+
+
+
+
+.triangle{
+    width: 0;
+            height: 0;
+            border-left: 4vh solid transparent;
+            border-right: 0vh solid transparent;
+            border-bottom: 4vh solid black;
+
+            }
