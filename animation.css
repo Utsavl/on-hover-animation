@@ -9,6 +9,16 @@
     display: flex;
     flex-direction: column;
 }
+@media (max-width: 767px){
+    .container{
+        background-color: white;
+    }
+    .circle{
+        border: 3px solid rgb(0, 0, 149) ;
+    }
+}
+
+
 
 
 
